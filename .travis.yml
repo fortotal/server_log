@@ -6,13 +6,13 @@ python:
 before_install:
   - python --version
   - pip install -U pip
-install:
-  - pip install flask 
-  - pip install logging
-  - pip install json
-  - pip install socket
-  - pip install unittest
-  - pip install requests
+# install:
+#   - pip install flask 
+#   - pip install logging
+#   - pip install json
+#   - pip install socket
+#   - pip install unittest
+#   - pip install requests
   
 script: test_ser.py # run tests
 
