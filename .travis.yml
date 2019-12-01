@@ -9,5 +9,3 @@ install:
 # command to run tests
 script: 
  - python3 server.py
- - python3 test_ser.py
-
