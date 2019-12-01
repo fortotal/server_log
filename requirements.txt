@@ -1,6 +1,2 @@
 requests
 flask 
-socket
-unittest
-json
-logging
