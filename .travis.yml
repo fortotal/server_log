@@ -6,7 +6,7 @@ python:
 install:
   - pip3 install --upgrade pip
   - pip3 install -r requirements.txt
-  - python3 server.py
 # command to run tests
 script: 
- - python3 test_ser.py
+  - python3 server.py
+  - python3 test_ser.py
